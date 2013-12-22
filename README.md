@@ -39,3 +39,8 @@ The three modules are as follows:
 2. Recommendation and business analytics module: the Neflix Prize was a famous recent example of collaborative filtering: given information about which movies various users have liked and disliked, how should Netflix make recommendations for what movies a user should watch? Many other companies are interested in closely-related problems. Often there is a very large but very sparse data set (e.g., there could be millions of users and tens of thousands of movies, but very few users rate more than a few hundred movies). We will explore techniques for working with such data.
  
 3. Sampling and social network analysis module: social, biological, and technological networks are attracting interest from many fields. They are examples of relational data, in which there are measurements on pairs of individuals, not just on individuals. But computation and visualization for a network with more than, say, 50 nodes (individuals) presents many challenges in scalability and interpretability. We will study techniques for drawing a sample from a network, for analyzing network data (e.g., finding “communities” and “influential” nodes in the network), and for visualizing network data.
+
+Code.
+=====
+
+[Homework 1](docs/more_words.md)
