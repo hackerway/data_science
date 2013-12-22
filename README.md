@@ -1,5 +1,9 @@
-Data-Science
-============
+Data Science.
+=============
+
+Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries. 
+
+The course is built around three modules: prediction and elections, recommendation and business analytics, and sampling and social network analysis. We will be using Python for all programming assignments and projects. 
 
 This class is about learning from data, in order to gain useful predictions and insights. Separating signal from noise presents many computational and inferential challenges, which we approach from a perspective at the interface of computer science and statistics.  Through real-world examples of wide interest, we introduce methods for five key facets of an investigation:
  
