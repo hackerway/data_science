@@ -45,6 +45,13 @@ Code.
 
 [HW1.ipynb](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW1.ipynb?create=1)
 ----------------------------------------------------------------------------------------------------
+Polling data isn't a perfect predictor for the future, and some polls are more accurate than others. This means that election forecastors must consider prediction uncertainty when building models.
+In this first assignment, you will perform a simple analysis of polling data about the upcoming Governor races. The assignment has three main parts:
+
+1. First you will build some tools to download historical polling data from the web, and parse it into a more convenient format.
+2. Next you will use these tools to aggregate and visualize several past Governor races
+3. Finally you will run a bootstrap analysis to estimate the probable outcome of current Governor races, given the level of precision of historical polls.
+
 [HW2.ipynb](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW2.ipynb?create=1)
 ----------------------------------------------------------------------------------------------------
 We are going to focus on the 2012 Presidential election. Analysts like Nate Silver, Drew Linzer, and Sam Wang developed highly accurate models that correctly forecasted most or all of the election outcomes in each of the 50 states. We will explore how hard it is to recreate similarly successful models. The goals of this assignment are:
