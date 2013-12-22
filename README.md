@@ -43,5 +43,7 @@ The three modules are as follows:
 Code.
 =====
 
-[Homework 1](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW1.ipynb?create=1)
------------------------------------------------------------------------------------------------------
+[HW1.ipynb](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW1.ipynb?create=1)
+----------------------------------------------------------------------------------------------------
+[HW2.ipynb](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW2.ipynb?create=1)
+----------------------------------------------------------------------------------------------------
