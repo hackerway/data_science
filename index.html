@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Datascience by noelnamai</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Datascience</h1>
+        <h2>Data Science</h2>
+        <a href="https://github.com/noelnamai/DataScience" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="data-science" class="anchor" href="#data-science"><span class="octicon octicon-link"></span></a>Data Science.</h1>
+
+<p>Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries. </p>
+
+<p>The course is built around three modules: prediction and elections, recommendation and business analytics, and sampling and social network analysis. We will be using Python for all programming assignments and projects. </p>
+
+<p>This class is about learning from data, in order to gain useful predictions and insights. Separating signal from noise presents many computational and inferential challenges, which we approach from a perspective at the interface of computer science and statistics.  Through real-world examples of wide interest, we introduce methods for five key facets of an investigation:</p>
+
+<ol>
+<li>Data munging/scraping/sampling/cleaning in order to get an informative, manageable data set;</li>
+<li>Data storage and management in order to be able to access data - especially big data - quickly and reliably during subsequent analysis;</li>
+<li>Exploratory data analysis to generate hypotheses and intuition about the data;</li>
+<li>Prediction based on statistical tools such as regression, classification, and clustering; and communication of results through visualization, stories, and interpretable summaries.</li>
+</ol><h1>
+<a name="expected-learning-outcomes" class="anchor" href="#expected-learning-outcomes"><span class="octicon octicon-link"></span></a>Expected Learning Outcomes.</h1>
+
+<p>After successful completion of this course, you will be able to.</p>
+
+<ol>
+<li>Use Python and other tools to scrape, clean, and process data</li>
+<li>Use data management techniques to store data locally and in cloud infrastructures</li>
+<li>Use statistical methods and visualization to quickly explore data</li>
+<li>Apply statistics and computational analysis to make predictions based on data</li>
+<li>Apply basic computer science concepts such as modularity, abstraction, and encapsulation to data analysis problems</li>
+<li>Implement data-intensive computations on cluster and cloud infrastructures using MapReduce</li>
+<li>Effectively communicate the outcome of data analysis using descriptive statistics and visualizations</li>
+</ol><h1>
+<a name="what-is-the-structure-of-the-class" class="anchor" href="#what-is-the-structure-of-the-class"><span class="octicon octicon-link"></span></a>What is the structure of the class?</h1>
+
+<p>There will be three major modules, each focusing on an important arena in which data science is playing a crucial role. Within each module, we will study how to gather, explore, and analyze relevant data, as well as how to communicate the results. The major programming language used will be Python.</p>
+
+<h1>
+<a name="the-three-modules-are-as-follows" class="anchor" href="#the-three-modules-are-as-follows"><span class="octicon octicon-link"></span></a>The three modules are as follows:</h1>
+
+<ol>
+<li><p>Prediction and elections module: how did Nate Silver predict 50 out of 50 states correctly in the 2012 U.S. presidential election, and 49 out of 50 correctly in the 2008 election? How much of that was luck? We will discuss how to find, process, combine, visualize, simulate, and summarize election-related data and questions, especially if there are conflicting polls with different reliabilities.</p></li>
+<li><p>Recommendation and business analytics module: the Neflix Prize was a famous recent example of collaborative filtering: given information about which movies various users have liked and disliked, how should Netflix make recommendations for what movies a user should watch? Many other companies are interested in closely-related problems. Often there is a very large but very sparse data set (e.g., there could be millions of users and tens of thousands of movies, but very few users rate more than a few hundred movies). We will explore techniques for working with such data.</p></li>
+<li><p>Sampling and social network analysis module: social, biological, and technological networks are attracting interest from many fields. They are examples of relational data, in which there are measurements on pairs of individuals, not just on individuals. But computation and visualization for a network with more than, say, 50 nodes (individuals) presents many challenges in scalability and interpretability. We will study techniques for drawing a sample from a network, for analyzing network data (e.g., finding “communities” and “influential” nodes in the network), and for visualizing network data.</p></li>
+</ol><h1>
+<a name="code" class="anchor" href="#code"><span class="octicon octicon-link"></span></a>Code.</h1>
+
+<h2>
+<a name="hw1ipynb" class="anchor" href="#hw1ipynb"><span class="octicon octicon-link"></span></a><a href="http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW1.ipynb?create=1">HW1.ipynb</a>
+</h2>
+
+<p>Polling data isn't a perfect predictor for the future, and some polls are more accurate than others. This means that election forecastors must consider prediction uncertainty when building models.
+In this first assignment, you will perform a simple analysis of polling data about the upcoming Governor races. The assignment has three main parts:</p>
+
+<ol>
+<li>First you will build some tools to download historical polling data from the web, and parse it into a more convenient format.</li>
+<li>Next you will use these tools to aggregate and visualize several past Governor races</li>
+<li>Finally you will run a bootstrap analysis to estimate the probable outcome of current Governor races, given the level of precision of historical polls.</li>
+</ol><h2>
+<a name="hw2ipynb" class="anchor" href="#hw2ipynb"><span class="octicon octicon-link"></span></a><a href="http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW2.ipynb?create=1">HW2.ipynb</a>
+</h2>
+
+<p>We are going to focus on the 2012 Presidential election. Analysts like Nate Silver, Drew Linzer, and Sam Wang developed highly accurate models that correctly forecasted most or all of the election outcomes in each of the 50 states. We will explore how hard it is to recreate similarly successful models. The goals of this assignment are:</p>
+
+<ol>
+<li>To practice data manipulation with Pandas.</li>
+<li>To develop intuition about the interplay of precision, accuracy, and bias when making predictions.</li>
+<li>To better understand how election forecasts are constructed.</li>
+</ol><p>The data for our analysis will come from demographic and polling data. We will simulate building our model on October 2, 2012 -- approximately one month before the election.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/noelnamai/DataScience/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/noelnamai/DataScience/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/noelnamai/DataScience"></a> is maintained by <a href="https://github.com/noelnamai">noelnamai</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
