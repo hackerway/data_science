@@ -47,3 +47,10 @@ Code.
 ----------------------------------------------------------------------------------------------------
 [HW2.ipynb](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW2.ipynb?create=1)
 ----------------------------------------------------------------------------------------------------
+We are going to focus on the 2012 Presidential election. Analysts like Nate Silver, Drew Linzer, and Sam Wang developed highly accurate models that correctly forecasted most or all of the election outcomes in each of the 50 states. We will explore how hard it is to recreate similarly successful models. The goals of this assignment are:
+
+1. To practice data manipulation with Pandas.
+2. To develop intuition about the interplay of precision, accuracy, and bias when making predictions.
+3. To better understand how election forecasts are constructed.
+
+The data for our analysis will come from demographic and polling data. We will simulate building our model on October 2, 2012 -- approximately one month before the election.
