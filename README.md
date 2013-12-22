@@ -43,4 +43,5 @@ The three modules are as follows:
 Code.
 =====
 
-[Homework 1](docs/more_words.md)
+[Homework 1](http://nbviewer.ipython.org/github/noelnamai/DataScience/blob/master/HW1.ipynb?create=1)
+-----------------------------------------------------------------------------------------------------
